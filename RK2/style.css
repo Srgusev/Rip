@@ -1,0 +1,45 @@
+header{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+main{
+    width: 700px;
+    margin: auto;
+    height: 100px;
+    display: flex;
+}
+
+table{
+    width: 50%;
+	border-collapse: collapse;
+}
+
+
+
+.oc{
+    width: 50%;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.oc-list{
+    list-style-type: square;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(255,130,255);
+}
+
+tr:nth-child(even){
+    background-color: #ff9900;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(255,130,255);
+}
